@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cars for Rental</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  
+  <div class = "container">
+    <div class = "car-wrapper">
+      <div class = "car-search">
+        <h2 class = "title">CarTrawler</h2>
+        <blockquote>Best in the business.<br>
+          <cite>CarTrawler</cite>
+        </blockquote>
+
+        <div class = "car-search-box">
+          <input type = "text" class = "search-control" placeholder="Press search button for Cars" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "car-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "car">
+        </div>
+      </div>
+
+
+      <div class = "car-details">
+        <button type = "button" class = "btn car-close-btn" id = "car-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- Car content -->
+        <div class = "car-details-content">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src = "script.js"></script>
+</body>
+</html>
